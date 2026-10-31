@@ -42,11 +42,11 @@ def style_base_layout():
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
-            # /* Hide Top Bar of Streamlit */
+            /* Hide Top Bar of Streamlit */
 
-            #     #MainMenu,footer,header{
-            #         visibility:hidden;
-            #     }
+                #MainMenu,footer,header{
+                    visibility:hidden;
+                }
 
                 .block-container{
                     padding-top:1.5rem !important;
