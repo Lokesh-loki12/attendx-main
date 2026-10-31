@@ -20,9 +20,9 @@ def header_dashboard():
         f"""
         <div style="display:flex;align-items:center;justify-content:center;gap:10px;">
             <img src="{logo_url}" style="height:85px;" />
-            <h2 style= 'text-align:left; color:#5B65F2'>SNAP</br>CLASS </h1>
+            <h2 style= 'text-align:left; color:#5B65F2'>AttendX</h1>
         </div>
         """,
         unsafe_allow_html=True
      )
-        
+      
