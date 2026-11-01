@@ -289,6 +289,8 @@ def teacher_screen_login():
                 import time
                 time.sleep(1)
                 st.rerun()
+            else:
+                st.error("Invalid username or password!")
 
     with btnc2:
        if  st.button('Register Instead',type='primary',icon=':material/passkey:',width='stretch'):
